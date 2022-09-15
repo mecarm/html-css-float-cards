@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+
+header p,h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header h1{
+    color: #E6316F;
+}
+
+.card, img{
+    height: 90px;
+    float: left;
+}
+
+.col{
+    height: 90px;
+    background-color: black;
+    color: white;
+    width: calc((100% / 3) - 60px);
+    line-height: 30px;
+    text-align: left;
+    float: left;
+    margin: 30px;
+    box-shadow:  4px 4px 4px 4px lightgrey;
+    
+}
+
+#email{
+    color: rgb(76, 188, 207);
+}
+
+.col h3,p{
+    padding-left: 100px;
+}
